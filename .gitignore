@@ -17,6 +17,8 @@
 /wp-*.php
 /xmlrpc.php
 
+.DS_Store
+
 # Configuration
 wp-config.php
 
@@ -34,6 +36,14 @@ wp-config.php
 
 # htaccess
 /.htaccess
+
+demo.php
+
+/resources/scss/*.css
+/resources/scss/*.css.map
+/resources/css/*.css
+/resources/css/*.css.map
+!/resources/css/edgar*
 
 # All plugins
 #

@@ -1,0 +1,1 @@
+const edgar = angular.module('edgar', []);

@@ -1,0 +1,11 @@
+/*
+* Edgar
+*/
+
+#poststuff {
+ 
+    div.postbox[id^="edgar"] {
+        @import "metabox";
+    }
+    
+}

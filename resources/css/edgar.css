@@ -1,0 +1,177 @@
+/*
+* Edgar
+*/
+#poststuff div.postbox[id^=edgar] {
+  /*
+  * Meta Box
+  */
+}
+#poststuff div.postbox[id^=edgar] > div.inside {
+  padding: 0;
+  margin: 0 !important;
+}
+#poststuff div.postbox[id^=edgar] > div.inside h1, #poststuff div.postbox[id^=edgar] > div.inside h2, #poststuff div.postbox[id^=edgar] > div.inside h3, #poststuff div.postbox[id^=edgar] > div.inside h4, #poststuff div.postbox[id^=edgar] > div.inside h5, #poststuff div.postbox[id^=edgar] > div.inside h6, #poststuff div.postbox[id^=edgar] > div.inside p {
+  margin: 0;
+  padding: 0;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates {
+  border-bottom: 1px solid #CCC;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col:first-child {
+  width: 30%;
+  border-right: 1px solid #CCC;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col:last-child {
+  width: 70%;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col .tabs header,
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col .tabs section {
+  padding: 10px 15px;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col .tabs header {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col .tabs header > div {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: right;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col .tabs header a {
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  border: 1px solid #CCC;
+  border-bottom: 0;
+  padding: 10.3px 15px;
+  background-color: #f6f7f7;
+  position: relative;
+  color: #3c434a;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col .tabs header a.active {
+  top: 1px;
+  background-color: #FEFEFE;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col .tabs .tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col .tabs .tab:not(.active) {
+  display: none;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col .tabs .tab div.field.slug > div .input {
+  text-align: right;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col .tabs .tab div.field.slug > div .input input {
+  width: calc(100% - 21px);
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col .tabs .tab div.field > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col .tabs .tab div.field > div .label {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col .tabs .tab div.field > div .label required:after {
+  content: "*";
+  color: red;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col .tabs .tab div.field > div .label label {
+  opacity: 0.6;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col .tabs .tab div.field > div a.button svg {
+  height: 12px;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col .tabs .tab div.field > div .input {
+  width: 60%;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col .tabs .tab div.field > div .input *:not([type=checkbox]) {
+  width: 100%;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col section.field.active header {
+  background-color: #FFFFFF;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col section.field header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #CCC;
+  background-color: #f6f7f7;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col section.field header div {
+  padding: 15px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col section.field header div:first-child {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col section.field header div a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col section.field header div a.reorder {
+  cursor: move;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col section.field header div a svg {
+  width: 20px;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col section.field header div h4 {
+  margin: 0;
+  font-size: 14px;
+}
+#poststuff div.postbox[id^=edgar] > div.inside main#edgar-templates div.row div.col section.field header div h4 a {
+  color: #3c434a;
+  text-decoration: none;
+}
+#poststuff div.postbox[id^=edgar] > div.inside footer {
+  background-color: #FEFEFE;
+  padding: 15px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 15px;
+}/*# sourceMappingURL=edgar.css.map */

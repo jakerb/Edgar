@@ -1,0 +1,196 @@
+/*
+* Meta Box
+*/
+
+
+ > div.inside {
+    padding: 0;
+    margin: 0 !important;
+
+    h1,h2,h3,h4,h5,h6,p {
+        margin: 0; 
+        padding: 0;
+    }
+
+    main#edgar-templates {
+        border-bottom: 1px solid #CCC;
+
+        div.row {
+            display: flex;
+
+            div.col {
+
+                &:first-child {
+                    width: 30%;
+                    border-right: 1px solid #CCC;
+                }
+
+                &:last-child {
+                    width: 70%;
+                }
+
+                .tabs {
+
+                    header,
+                    section {
+                        padding: 10px 15px;
+                    }
+
+                    header {
+                        justify-content: flex-end;
+                        border-bottom: 1px solid #CCC;
+                        padding-bottom: 0;
+                        display: flex;
+                        gap: 10px;
+                        justify-content: flex-start;
+
+                        > div {
+                            flex-grow: 1;
+                            text-align: right;
+                        }
+
+                        a {
+                            cursor: pointer;
+                            display: block;
+                            text-decoration: none;
+                            border: 1px solid #CCC;
+                            border-bottom: 0;
+                            padding: 10.3px 15px;
+                            background-color: #f6f7f7;
+                            position: relative;
+                            color: #3c434a;
+                            
+
+                            &.active {
+                                top: 1px;
+                                background-color: #FEFEFE;
+                            }
+                        }
+                    }
+
+                    .tab {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        &:not(.active) {
+                            display: none;
+                        }
+
+                        div.field {
+
+                            &.slug {
+                                > div {
+                                    .input {
+                                        text-align: right;
+                                        input {
+                                            width: calc(100% - 21px);
+                                        }
+                                    }
+                                }
+                            }
+
+                            > div {
+                                display: flex;
+                                gap: 15px;
+                                padding: 10px;
+                                
+                                .label {
+                                    width: 40%;
+                                    display: flex;
+                                    align-items: flex-start;
+
+                                    required {
+                                        &:after {
+                                            content: '*';
+                                            color: red;
+                                        }
+                                    }
+
+                                    label {
+                                        opacity: 0.6;
+                                    }
+                                }
+
+                                a.button {
+                                    svg {
+                                        height: 12px;
+                                    }
+                                }
+
+                                .input {
+                                    width: 60%;
+
+                                    *:not([type="checkbox"]) {
+                                        width: 100%;
+                                    }
+                                }
+
+
+                            }
+                        }
+
+                    }
+
+                }
+
+                section.field {
+
+                    &.active {
+                        header {
+                            background-color: #FFFFFF;
+                        }
+                    }
+
+                    header {
+                        display: flex;
+                        width: 100%;
+                        border-bottom: 1px solid #CCC;
+                        background-color: #f6f7f7;
+        
+                        div {  
+                            padding: 15px 20px;
+                            display: flex;
+                            gap: 10px;
+                            align-items: center;
+        
+                            &:first-child {
+                                flex-grow: 1;
+                            }
+        
+                            a {
+                                display: inline-flex;
+        
+                                &.reorder {
+                                    cursor: move;
+                                }
+        
+                                svg {
+                                    width: 20px
+                                }
+                            }
+            
+                            h4 {
+                                margin: 0;
+                                font-size: 14px;
+                                
+                                a {
+                                    color: #3c434a;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        background-color: #FEFEFE;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+    }
+}
